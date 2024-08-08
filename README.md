@@ -1,5 +1,5 @@
 # ydh-siwes-task1
-Hello! I'm [Your Name], a junior web developer with a passion for creating dynamic and responsive web applications. This repository is a showcase of my work and journey in web development. I am proficient in HTML, CSS, and JavaScript, and I am continuously learning and improving my skills.
+Hello! I'm Ben Victor Favour, a junior web developer with a passion for creating dynamic and responsive web applications. This repository is a showcase of my work and journey in web development. I am proficient in HTML, CSS, and JavaScript, and I am continuously learning and improving my skills.
 
 # About Me
 
