@@ -1,0 +1,121 @@
+body {
+    background-color: whitesmoke;
+}
+.formdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    width: 300px;
+    margin: 100px auto 100px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #777777;
+    position: relative;
+}
+.form input[type="email"], textarea {
+    width: 300px;
+    border-radius: 10px;
+    border-color: rgb(105, 142, 241);
+}
+h4 {
+    text-align: center;
+    color: rgb(26, 83, 240);
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+textarea {
+    height: 80px;
+}
+.form input[type="email"] {
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.git {
+    position: absolute;
+    bottom: 3px;
+    left: 5px;
+   
+}
+
+#git {
+    width: 55px;
+    height: 55px;
+   
+}
+
+.linkedin {
+    position: absolute;
+    bottom: 0;
+    left: 70px;
+   
+}
+
+#linkedin {
+    width: 55px;
+    height: 55px;
+}
+
+#message {
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+
+.x {
+    position: absolute;
+    bottom: 4px;
+   margin-bottom: 4px;
+   
+}
+
+#x {
+    width: 40px;
+    height: 40px;
+   
+}
+
+.facebook {
+    position: absolute;
+    bottom: 0;
+    right: 70px;
+   
+}
+
+#facebook {
+    width: 60px;
+    height: 60px;
+   
+}
+
+.instagram {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+   
+}
+
+#instagram {
+    width: 40px;
+    height: 40px;
+   
+}
+
+.benvictor {
+    font-size: 1em;
+    opacity: 0;
+    transform: translate(20px);
+    animation: fadeSlideUp 2s ease-in-out forwards;
+   
+   }
+   @keyframes fadeSlideUp {
+     0% {
+       opacity: 0;
+       transform: translate(20px);
+     }
+     100% {
+       opacity: 1;
+       transform: translate(0);
+     }
+   }

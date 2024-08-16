@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="Home.css">
+</head>
+<body>
+
+<div class="topnav" id="myTopnav">
+  <a href="Home.html" class="active">Home</a>
+  <a href="About.html">About</a>
+  <a href="Portfolio.html">Portfolio</a>
+  <a href="Registration.html">Registration</a>
+  <a href="User Login.html">Login</a>
+  <a href="Contact.html">Contact</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+<div class="tech">
+    <img class="techimage" src="desktop1.jpg">
+  <div class="techhead"> <h2 >Welcome to BENVICTOR.YDH</h2> </div>
+  <div class="techtext"> <p> At BENVICTOR.YDH, we specialize in crafting high-quality, responsive websites that prioritize user experience and functionality. Our focus is on delivering interactive, user-friendly designs that not only meet your needs but also exceed your expectations. Let us bring your digital vision to life with precision and professionalism.</p> </div>
+</div>
+
+<div class="coding">
+  <h4>We Code</h4>
+ <p class="codingparagraph">As a skilled web developer, I offer professional coding services tailored to your needs. Whether you're looking to build a sleek, responsive website from scratch or need help optimizing existing code, I provide high-quality solutions using the latest technologies. My services include custom website development, front-end and back-end coding, debugging, and performance optimization. Let's collaborate to bring your vision to life with clean, efficient, and scalable code.</p>
+</div>
+
+<div class="graphic">
+  <h4>We Design</h4>
+  <p class="design">As a passionate graphic designer, I offer creative services that bring your ideas to life. Whether you need a stunning logo, eye-catching marketing materials, or a complete brand identity, I provide designs that are both visually appealing and aligned with your brand’s message. My services include logo design, social media graphics, print materials, and more. Let’s work together to create designs that captivate your audience and leave a lasting impression.</p>
+</div>
+
+<div class="music">
+  <h4>We Produce</h4>
+  <p class="production">As an experienced music producer, I offer top-notch music production services to bring your sound to the next level. Whether you're an artist looking to produce a single, an album, or a unique sound for your project, I provide tailored production services that match your vision. My expertise includes beat making, mixing and mastering, sound design, and full track production. Let’s create music that resonates and stands out in the industry.</p>
+</div>
+
+<section class="contact">
+  <div class="container">
+      <h2>Subscribe To Our Newsletter</h2>
+      <p>Would you like to get useful information directly to your email?</p>
+      Yes <input type="checkbox" checked>
+      No <input type="checkbox"> <br>
+      <p id="text">Enter Your Email Address To Contiue</p> <br>
+      <input id="email" type="email" placeholder="example@gmail.com">
+    
+  </div>
+</section>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+</body>
+</html>

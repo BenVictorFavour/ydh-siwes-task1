@@ -1,0 +1,68 @@
+body {
+  background-color: whitesmoke;
+  display: flex;
+}
+.logindiv {
+ display: flex;
+ padding: 20px;
+ margin: 200px auto 200px auto;
+ width: 350px;
+ background-color: white;
+ justify-content: center;
+ text-align: center;
+ box-shadow: 0 0 10px #777777;
+ border-radius: 10px;
+ position: relative;
+}
+button {
+  margin-left: 80px;
+  margin-right: 80px;
+  width: 200px;
+  height: 40px;
+  background-color: rgb(26, 83, 240);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.loginform input[type="text"],
+.loginform input[type="password"] {
+  width: 350px;
+  height: 50px;
+  margin-bottom: 20px;
+  border-top: none;
+  border-right: none;
+  border-radius: 10px;
+  border-color: rgb(26, 83, 240);
+}
+h4 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 24px;
+  color: rgb(26, 83, 240);
+}
+.benvictor {
+ font-size: 1em;
+ opacity: 0;
+ transform: translate(20px);
+ animation: fadeSlideUp 2s ease-in-out forwards;
+ position: absolute;
+}
+@keyframes fadeSlideUp {
+  0% {
+    opacity: 0;
+    transform: translate(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+a {
+  text-decoration: none;
+}
+button:hover {
+  background-color: rgb(105, 142, 241);
+}
+button:active {
+  background-color: yellowgreen;
+}
